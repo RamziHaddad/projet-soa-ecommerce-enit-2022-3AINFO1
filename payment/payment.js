@@ -20,6 +20,6 @@ app.use(express.json());
 app.use("/api/auth", authRouter);
 
 
-app.listen(process.env.PORT || 5000, () => {
+app.listen(process.env.PORT || 8085, () => {
   console.log("api is ready");
 });
